@@ -4,7 +4,8 @@
 
 This project involves processing and analyzing Uber trip data using various Google Cloud services, including Cloud Storage, Compute Engine and BigQuery for storing and querying data. The goal is to transform raw Uber data into structured tables and load them into BigQuery and LookerStudio for analytics and visualization.
 
-Refer to docs/Uber Data Analytics.pdf to understand project implementation.
+Refer to `docs/Uber Data Analytics.pdf` to understand project implementation. <br>
+[Looker Studio Visualization](https://lookerstudio.google.com/u/0/reporting/20849a3e-fcc5-4455-9942-291da35781d4/page/l2C9D)
 
 ## Technologies Used
 
@@ -16,7 +17,9 @@ Refer to docs/Uber Data Analytics.pdf to understand project implementation.
 
 ## Project Structure
 
+- **bigquery/**: Contains SQL query implementation on processed data
 - **data/**: Contains raw data
-- **src/**: Contains the main Python scripts for data loading, transformation, and exporting data to BigQuery.
-- **docs/**: Contains additional documentation and project reports.
+- **docs/**: Contains project documentation
+- **mage/**: Contains screenshots of Mage AI Pipeline
 - **notebooks/**: Jupyter Notebooks used for initial exploration of the dataset (if any).
+- **src/**: Contains the main Python scripts for data loading from GCS, transformation, and  data exporting to BigQuery.
