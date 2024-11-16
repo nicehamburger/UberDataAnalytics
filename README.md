@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves processing and analyzing Uber trip data using various Google Cloud services, including BigQuery for storing and querying data. The goal is to transform raw Uber data into structured tables and load them into BigQuery for analytics and visualization.
+This project involves processing and analyzing Uber trip data using various Google Cloud services, including Cloud Storage, Compute Engine and BigQuery for storing and querying data. The goal is to transform raw Uber data into structured tables and load them into BigQuery and LookerStudio for analytics and visualization
 
 ## Technologies Used
 
