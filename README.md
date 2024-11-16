@@ -14,25 +14,7 @@ This project involves processing and analyzing Uber trip data using various Goog
 
 ## Project Structure
 
-- **data/**: Contains raw, transformed, and BigQuery data.
+- **data/**: Contains raw data
 - **src/**: Contains the main Python scripts for data loading, transformation, and exporting data to BigQuery.
-- **config/**: Contains configuration files for Mage AI and BigQuery.
-- **tests/**: Contains unit tests to ensure the correctness of data transformation and loading scripts.
 - **docs/**: Contains additional documentation and project reports.
 - **notebooks/**: Jupyter Notebooks used for initial exploration of the dataset (if any).
-
-## Setup Instructions
-
-### Prerequisites
-
-Ensure you have the following setup before running the project:
-
-- A Google Cloud account with access to BigQuery, Compute Engine, and Storage.
-- Python 3.x installed on your local machine.
-- Mage AI installed (check Mage AI documentation for installation steps).
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/uber-analytics-project.git
-cd uber-analytics-project
