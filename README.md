@@ -1,4 +1,4 @@
-# Uber Analytics Project
+# Uber Data Analytics
 
 ## Overview
 
